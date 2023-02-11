@@ -28,7 +28,7 @@ public:
           if (v == -1 || edgeColor == prevColor)
             continue;
           q.emplace(v, edgeColor);
-          v = -1;  // Mark (u, v) as used.
+          v = -1;  
         }
       }
 
