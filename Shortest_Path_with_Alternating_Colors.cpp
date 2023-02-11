@@ -1,3 +1,4 @@
+
 enum class Color { kInit, kRed, kBlue };
 class Solution {
 public:
